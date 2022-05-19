@@ -1,0 +1,23 @@
+# Robot mobile : exemple 3
+
+participant CPU
+participant Moteurs
+
+activecolor CPU #red
+activecolor Moteurs #green
+
+activate CPU
+CPU->Moteurs:leftArc(0.2)
+activate Moteurs
+note over CPU:delay(4000)
+note over Moteurs:leftArc
+CPU->Moteurs:setSpeed(20)
+deactivate Moteurs
+CPU->Moteurs:rightArc(0.2)
+activate Moteurs
+note over CPU:delay(4000)
+note over Moteurs:rightarc
+CPU->Moteurs:stop()
+deactivate Moteurs
+deactivate CPU
+
