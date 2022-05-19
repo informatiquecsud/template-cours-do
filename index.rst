@@ -10,6 +10,8 @@ Cours de robotique
    :maxdepth: 2
    :caption: Table des matières
 
+   intro/introduction.rst
+
    
 
 
