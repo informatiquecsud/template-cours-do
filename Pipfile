@@ -4,6 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+sphinx = "*"
+sphinx-book-theme = "*"
+sphinx-autobuild = "*"
+sphinx-copybutton = "*"
+sphinx-design = "*"
 
 [dev-packages]
 
